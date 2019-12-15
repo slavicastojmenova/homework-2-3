@@ -1,0 +1,59 @@
+
+/* First button row */
+.first {
+    width: 50%;
+    background-color: rgb(190, 181, 181);
+    justify-content: center;
+    text-align: center;
+
+}
+
+.firstB input {
+    width: 150px;
+    margin: 50px 20px;
+    text-align: center;
+    padding: 10px 5px;
+    border: 1px solid; 
+    border-radius: 5px;
+    background-color: transparent;
+
+}
+
+/* Second button row */
+.second {
+    width: 50%;
+    background-color: rgb(87, 63, 196);
+    justify-content: center;
+    text-align: center;
+}
+
+.secB input {
+    width: 150px;
+    margin: 50px 25px;
+    text-align: center;
+    padding: 10px 5px;
+    border: 2px solid white; 
+    border-radius: 50px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+/* Second button row */
+.third {
+    width: 50%;
+    background-color: rgb(16, 13, 32);
+    justify-content: center;
+    text-align: center;
+}
+
+.trdB input {
+    width: 150px;
+    margin: 50px 20px;
+    text-align: center;
+    padding: 10px 5px;
+    border: 1px solid white; 
+    background-color: transparent;
+    text-transform: inherit;
+    color: rgba(194, 121, 194, 0.918);
+}
