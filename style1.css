@@ -1,0 +1,17 @@
+#index {
+    border: 1px solid;
+}
+
+.custom {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: lightcoral;
+    color: aliceblue;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
