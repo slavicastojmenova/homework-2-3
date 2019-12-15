@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-form {
+    width: 240px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(22, 21, 21, 0.822);    
+}
+
+form {
+    padding: 5px;
+}
+
+/* Sing Up Heading */
+.signup-form h3 {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Inputs */
+.type  {
+    padding: 10px;
+    margin: 5px;
+    text-align: start;
+    background-color: transparent;
+    border:1px solid rgb(168, 165, 165) ;
+    border-radius: 4px;
+}
+
+/* Sign Up button */
+.su-btn {
+    width: 196px;
+    margin: auto;
+    background: greenyellow;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 10px 0;
+    color: gray;
+}
+
+   
