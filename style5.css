@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(131, 162, 235);
+}
+
+.first-div {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border: 1px ;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;    
+    box-shadow: 5px 5px 5px lightslategray;
+}
+
+/* Image styling */
+.sec-div {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 50%;
+    border: 10px solid rgb(172, 226, 240);
+} 
+
+/* Name text styling */
+h3 {
+    padding: none;
+    color: orangered;
+    font-size: x-large;
+    margin-bottom: 1px;
+}
+
+h4 {
+    color: black;
+    margin-top: 1px;
+    margin-bottom: 40px;
+}
+
+
+
