@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>4th Exercise</title>
+        <link rel="stylesheet" href="style4.css">
+    </head>
+
+    <body>
+        <form>
+            <table border="1px"  cellspacing="5">
+                <thead>
+                    <tr>
+                        <th colspan="2">User Form</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="td-pad">Enter Name</td>
+                        <td >
+                            <input type="text" name="name" class="name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="td-pad">Enter Password</td>
+                        <td >
+                            <input  type="text" name="name" class="pass">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="td-pad">Enter Address</td>
+                        <td >
+                            <textarea  rows="2" cols="45" class="adr"></textarea>
+                        </td>
+                    </tr>
+
+                    <!-- Select game row-->
+                    <tr>
+                        <td class="td-pad">Select Game
+                        <td>
+                            <input type="checkbox" class="sport" > Hockey<br>
+                            <input type="checkbox" class="sport" > Football<br>
+                            <input type="checkbox" class="sport"> Badminton <br>
+                            <input type="checkbox" class="sport"> Cricket <br>
+                            <input type="checkbox" class="sport"> Volleyball <br>
+                        </td>
+                    </tr>    
+
+                    <!-- Gender row -->
+                    <tr>
+                        <td class="td-pad">Gender</td>
+                        <td>
+                            <input type="radio" name="gender" class="gend" checked >Male
+                            <input type="radio"  name="gender" >Female <br>
+                        </td>
+                    </tr>
+
+                    <!-- Select age row-->
+                    <tr>
+                        <td class="td-pad">Select your age</td>
+                        <td>
+                            
+                            <select  name="select" class="select">
+                                <option value="select" >select</option>
+                            </select>
+                        
+                        </td>
+                    </tr>
+
+                    <!-- File Row -->
+                    <tr>
+                        <td colspan="2">
+                            <div class="file-div">
+                                <input type="submit" value="Choose File" >
+                                <input type="text" placeholder="No file chosen" class="file" >
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Button row -->
+                    <tr>
+                        <td colspan="2" >
+                            <div class="btn-div">
+                                <input type="button" value="Click Me" class="btn" >
+                                <input type="button" value="Reset" class="btn">
+                                <input type="button" value="Submit Form" class="btn">
+                            </div>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </form>
+        
+    </body>
+</html>

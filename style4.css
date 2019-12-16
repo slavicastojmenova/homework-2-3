@@ -1,0 +1,47 @@
+table {
+    width:700px ;
+    border: 3px solid gray;
+    border-bottom: 3px solid black;
+}
+
+tbody {
+    background-color: cyan;
+}
+
+/* header row */
+th {
+    padding: 3px 8px;
+    font-size: 25px;
+    color: red;
+    background-color: lightgoldenrodyellow;
+}
+
+/* first column cells*/
+.td-pad {
+    padding: 3px 100px 3px 10px;
+}
+
+/* second column cells */
+.sport, .adr, .name, .pass, .gend, .select {
+    margin: 2px 10px;
+}
+
+.btn-div, .file-div {
+    display: flex;
+    justify-content: center;
+    margin: 3px 0;
+}
+
+.btn {
+    width: 30%;
+    padding: 8px 10px;
+    margin: 0 3px;
+}
+
+.file, .btn, .name, .pass, .adr, .select {
+    background-color:lightcyan;
+}
+
+.name, .pass, .adr, .select {
+    width: 90%;
+}
